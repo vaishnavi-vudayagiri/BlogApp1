@@ -33,7 +33,7 @@ function WriteArticles() {
     articleObj.author = currentUser._id;
 
     try {
-      const BASE_URL = import.meta.env.VITE_API_URL || "https://architecture-app-1.onrender.com";
+      const BASE_URL = import.meta.env.VITE_API_URL || "https://blogapp1-5l1p.onrender.com";
 
 let res = await axios.post(
   `${BASE_URL}/author-api/article`,

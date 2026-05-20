@@ -17,7 +17,7 @@ function Articles() {
   const [articles, setArticles] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-  const BASE_URL = import.meta.env.VITE_API_URL || "https://architecture-app-1.onrender.com";
+  const BASE_URL = import.meta.env.VITE_API_URL || "https://blogapp1-5l1p.onrender.com";
 
   // Fetch active articles
   useEffect(() => {
